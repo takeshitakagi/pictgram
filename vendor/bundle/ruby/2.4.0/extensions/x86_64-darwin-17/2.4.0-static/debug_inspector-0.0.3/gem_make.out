@@ -1,0 +1,15 @@
+current directory: /Users/takeshi/pictgram/vendor/bundle/ruby/2.4.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/takeshi/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180630-50396-olt6gk.rb extconf.rb
+creating Makefile
+
+current directory: /Users/takeshi/pictgram/vendor/bundle/ruby/2.4.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/takeshi/pictgram/vendor/bundle/ruby/2.4.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/takeshi/pictgram/vendor/bundle/ruby/2.4.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20180630-50396-1retiw6

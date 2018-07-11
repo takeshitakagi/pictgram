@@ -1,0 +1,20 @@
+current directory: /Users/takeshi/pictgram/vendor/bundle/ruby/2.4.0/gems/bcrypt-ruby-3.1.1.rc1/ext/mri
+/Users/takeshi/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180707-94511-d3r2pb.rb extconf.rb
+checking for ruby/util.h... yes
+creating Makefile
+
+current directory: /Users/takeshi/pictgram/vendor/bundle/ruby/2.4.0/gems/bcrypt-ruby-3.1.1.rc1/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/takeshi/pictgram/vendor/bundle/ruby/2.4.0/gems/bcrypt-ruby-3.1.1.rc1/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+current directory: /Users/takeshi/pictgram/vendor/bundle/ruby/2.4.0/gems/bcrypt-ruby-3.1.1.rc1/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20180707-94511-1iqskrk
