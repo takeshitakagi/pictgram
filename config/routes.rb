@@ -3,10 +3,9 @@ Rails.application.routes.draw do
   post '/favorites', to: 'favorites#create'
 
   get 'topics/new'
-  get 'topics/index'
+  #get 'topics/index'
 
-  get 'sessions/new'
-
+  get 'hogehohge/ddddd', to: 'topics#index'
   root 'pages#index'
   get 'pages/help'
 
