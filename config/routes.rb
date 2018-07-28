@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   post '/favorites', to: 'favorites#create'
 
   get 'topics/new'
-  #get 'topics/index'
+  get 'topics/index'
 
   get 'hogehohge/ddddd', to: 'topics#index'
   root 'pages#index'
@@ -14,5 +14,7 @@ Rails.application.routes.draw do
   delete '/logout',  to: 'sessions#destroy'
 
   resources :users
-  resources :topics
+  resources :topics do
+    resources :comments
+  end
 end
